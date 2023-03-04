@@ -4,6 +4,7 @@ import { galleryItems } from './gallery-items.js';
 console.log(galleryItems);
 
 const galleryList = document.querySelector('.gallery');
+
 const galleryMarkup = handelGalleryMarkup(galleryItems);
 
 function handelGalleryMarkup(items) {
